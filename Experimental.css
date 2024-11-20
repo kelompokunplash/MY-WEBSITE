@@ -1,0 +1,25 @@
+.grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+	margin: 20px;
+	align-items: center;
+	grid-gap: 30px;
+
+}
+
+.img{
+	object-fit: cover;
+}
+
+.jpg{
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+
+}
+
+.grid >img:hover{
+	transform: scele(1.2);
+
+}
